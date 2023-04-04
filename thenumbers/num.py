@@ -18,6 +18,9 @@ ans = []
 for dig in numb:
     ans.append(chr(dig + 96))
 
+ans=''.join(ans)
+ans.replace(' ','')
+
 print(type(numb))
 print(type(dig))
-print(ans.join(','))
+print(ans)
